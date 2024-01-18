@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIC-TAC-TOE</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <h1>Tic Tac Toe</h1>
+    <h3 id="chance"></h3>
+</head>
+
+<body>
+    <div id="inputs">
+        <div id="row1">
+            <button class="btn" id="btn1" onclick="disableBtn('btn1')"></button>
+            <button class="btn" id="btn2" onclick="disableBtn('btn2')"> </button>
+            <button class="btn" id="btn3" onclick="disableBtn('btn3')"> </button>
+        </div>
+        <div id="row2">
+            <button class="btn" id="btn4" onclick="disableBtn('btn4')"> </button>
+            <button class="btn" id="btn5" onclick="disableBtn('btn5')"></button>
+            <button class="btn" id="btn6" onclick="disableBtn('btn6')">  </button>
+        </div>
+        <div id="row3">
+            <button class="btn" id="btn7" onclick="disableBtn('btn7')">
+                </button>
+            <button class="btn" id="btn8" onclick="disableBtn('btn8')">
+                    </button>
+            <button class="btn" id="btn9" onclick="disableBtn('btn9')"></button>
+        </div>
+    </div>
+    <div id="resultMain">
+        <div id="result-text">
+            <h3 id="resultText"></h3>
+        </div>
+        <div id="reset">
+            <button id="reset-btn" onclick="reset()">Reset</button>
+        </div>
+    </div>
+</body>
+
+</html
